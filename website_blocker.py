@@ -12,7 +12,7 @@ redirect = "127.0.0.1"
 website_list: List[str] = ["www.facebook.com", "facebook.com", "www.instagram.com", "instagram.com"]
 
 # setting the hours during which we want the script to run
-start_time = dt(dt.now().year, dt.now().month, dt.now().day, 9)
+start_time = dt(dt.now().year, dt.now().month, dt.now().day, 10)
 end_time = dt(dt.now().year, dt.now().month, dt.now().day, 17)
 
 while True:
